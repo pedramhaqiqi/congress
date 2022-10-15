@@ -5,5 +5,5 @@ from . import views
 
 
 urlpatterns = [
-    path('/hearing', views.RetrieveArticle.as_view())
+    path('hearing/', views.RetrieveArticle.as_view())
 ]

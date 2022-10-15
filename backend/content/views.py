@@ -17,8 +17,15 @@ class RetrieveArticle(APIView):
     def post(self, request):
         data = request.body
         for i in data.key():
-            serialized = ArticleSerializer(data[i])
-            serialized.save()
+            article = ArticleModel(data[i]['title'],
+                                  data[i]['session'],
+                                  data[i]['date'],
+                                  data[i]['1'],
+                                  data[i]['2'],
+                                  data[i]['3'],
+                                  data[i]['4'],
+                                  data[i]['url'])
+            article.save()
     
     
     def get(self, request):
