@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 #Wombo api key
 
 WOMBOHEADER = {        
-    'Authorization': 'bearer {uovjcmHMu4iibJEcG7DSTTgTDNBUcjMp}',        
+    'Authorization': 'bearer uovjcmHMu4iibJEcG7DSTTgTDNBUcjMp',        
     'Content-Type': 'application/json'
 }
 

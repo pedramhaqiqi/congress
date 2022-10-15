@@ -5,12 +5,18 @@ from sumarizer.settings import WOMBOHEADER
 from .models import *
 import requests
 import json
+import time
 # Create your views here.
 
 class RetrieveArticle(APIView):
     
     def get(self, request):
         
+        prompt = "hacker getting into electric vehicle"
+        style_id = 2
+        imgspec = self.image_spec(0.1, 960, 1560) 
+        inputspec = self.input_spec(style_id, prompt, imgspec)  
+        self.get_wombo(inputspec)      
         return Response({}, status = 200)
     
     
@@ -23,8 +29,32 @@ class RetrieveArticle(APIView):
             "POST", "https://api.luan.tools/api/tasks/",
             headers = WOMBOHEADER, data = post_payload
         )
+        print(post_response.json())
+        task_id = post_response.json()['id']
+        task_id_url = f"https://api.luan.tools/api/tasks/{task_id}"
+        put_payload = json.dumps(
+            spec
+        )
         
-        task_id = post_response['id']
+        requests.request("PUT", task_id_url, headers = WOMBOHEADER, data = put_payload)
+        while True:            
+            response_json = requests.request(                    
+                "GET", task_id_url, headers=WOMBOHEADER).json()     
+            
+            state = response_json["state"]    
+        
+            if state == "completed":                    
+                r = requests.request("GET", response_json["result"])                    
+                with open("image.jpg", "wb") as image_file:                            
+                    image_file.write(r.content)                        
+                print("image saved successfully :)")                    
+                break 
+            
+            elif state =="failed":                    
+                print("generation failed :(")                    
+                break            
+            time.sleep(3)
+        
         
         
     def input_spec(self, style_id, prompt, spec = None):
