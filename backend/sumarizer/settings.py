@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
 from pathlib import Path
+import os
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,6 +29,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#Wombo api key
+
+WOMBOHEADER = {        
+    'Authorization': 'bearer {uovjcmHMu4iibJEcG7DSTTgTDNBUcjMp}',        
+    'Content-Type': 'application/json'
+}
 
 # Application definition
 
@@ -37,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'content',
 ]
 
 MIDDLEWARE = [
@@ -80,6 +90,8 @@ DATABASES = {
     }
 }
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
