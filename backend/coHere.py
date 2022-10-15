@@ -1,3 +1,4 @@
+from cgitb import text
 import cohere
 
 # Paste your API key here. Remember to not share it publicly 
