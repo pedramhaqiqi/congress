@@ -3,6 +3,7 @@ import * as React from "react"
 import * as ReactDOM from "react-dom/client"
 import { App } from "./App"
 import reportWebVitals from "./reportWebVitals"
+import PageRoutes from "./routes/Routes"
 import * as serviceWorker from "./serviceWorker"
 
 
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(container)
 root.render(
   <React.StrictMode>
     <ColorModeScript />
-    <App />
+    <PageRoutes></PageRoutes>
   </React.StrictMode>,
 )
 
