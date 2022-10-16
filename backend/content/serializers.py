@@ -15,9 +15,4 @@ class ArticleSerializer(serializers.ModelSerializer):
                   "date",
                   "session",
                   "url",
-                  "first",
-                  "second",
-                  "third",
-                  "fourth",
-                  "url",
                   "photo"]

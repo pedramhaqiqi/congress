@@ -10,29 +10,39 @@ import json
 import time
 from coHere import *
 from .serializers import *
+import json
 # Create your views here.
 
 class RetrieveArticle(APIView):
     
     def post(self, request):
-        data = request.body
-        for i in data.key():
-            article = ArticleModel(data[i]['title'],
-                                  data[i]['session'],
-                                  data[i]['date'],
-                                  data[i]['1'],
-                                  data[i]['2'],
-                                  data[i]['3'],
-                                  data[i]['4'],
-                                  data[i]['url'])
+        data = request.data
+        
+        for i in data.keys():
+            article = ArticleModel(title = data[i]['title'],
+                                  session = data[i]['session'],
+                                  date = data[i]['date'],
+                                  first = data[i]['1'],
+                                  second = data[i]['2'],
+                                  third = data[i]['3'],
+                                  fourth = data[i]['4'],
+                                  url = data[i]['url'])
+            
+            style_id = 23
+            imgspec = self.image_spec(0.1, 1560, 1560) 
+            inputspec = self.input_spec(style_id, article.title, imgspec)  
+            article.photo = self.get_wombo(inputspec)
             article.save()
+            
+        return Response({"succes"}, status = 200)
     
     
     def get(self, request):
         response_list = []
-        data = request.query_param
-        list_of_ids = data['id']
-        for i in list_of_ids:
+        first = int(request.query_params['first'])
+        last = int(request.query_params['last'])
+       
+        for i in range(first, last + 1):
             summary_list = []
             article = ArticleModel.objects.get(pk = i)
             first = article.first
@@ -46,13 +56,9 @@ class RetrieveArticle(APIView):
             summary_list.append(GenerateSummary(fourth))
             articledata['summary'] = summary_list
             response_list.append(articledata)
-        # prompt = "Parliament members discuss unemployment"
-        # style_id = 23
-        # imgspec = self.image_spec(0.1, 960, 1560) 
-        # inputspec = self.input_spec(style_id, prompt, imgspec)  
-        # self.get_wombo(inputspec)      
+       
+           
         return Response(response_list, status = 200)
-    
     
     def get_wombo(self, spec):
         post_payload = json.dumps({
