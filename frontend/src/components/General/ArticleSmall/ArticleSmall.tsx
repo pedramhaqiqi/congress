@@ -8,12 +8,10 @@ import {
   Text,
   HStack,
   Tag,
-  Wrap,
   WrapItem,
   SpaceProps,
   ChakraProvider,
 } from "@chakra-ui/react";
-import Expand from "../../Expand/Expand";
 
 interface IBlogTags {
   tags: Array<string>;
@@ -36,24 +34,27 @@ const BlogTags: React.FC<IBlogTags> = (props) => {
 
 interface BlogAuthorProps {
   date?: string;
-  name: string;
+  link: string;
 }
 
 interface SmallArticleProps {
   title?: string;
   date?: string;
   summary: Array<string>;
-  tag1?: string;
-  tag2?: string;
-  image?: string;
+  tags: Array<string>;
+  link: string;
+  image: string;
 }
 
 export const BlogAuthor: React.FC<BlogAuthorProps> = (
   props: BlogAuthorProps
 ) => {
+  const openInNewTab = (url: string) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
-      <Expand></Expand>
+      <Button onClick={() => openInNewTab(props.link)}>Learn More</Button>
       <Text>—</Text>
       <Text>{props.date}</Text>
     </HStack>
@@ -61,6 +62,10 @@ export const BlogAuthor: React.FC<BlogAuthorProps> = (
 };
 
 const SmallArticle = (props: SmallArticleProps) => {
+  const openInNewTab = (url: string) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <ChakraProvider>
       <WrapItem width={{ base: "100%", sm: "45%", md: "45%", lg: "30%" }}>
@@ -69,9 +74,7 @@ const SmallArticle = (props: SmallArticleProps) => {
             <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
               <Image
                 transform="scale(1.0)"
-                src={
-                  "https://cdn.discordapp.com/attachments/1030527530639302743/1031034139224322158/blank_tradingcard.jpg"
-                }
+                src={props.image}
                 alt="some text"
                 objectFit="contain"
                 width="100%"
@@ -82,7 +85,7 @@ const SmallArticle = (props: SmallArticleProps) => {
               />
             </Link>
           </Box>
-          <BlogTags tags={["Engineering", "Product"]} marginTop="3" />
+          <BlogTags tags={props.tags} marginTop="3" />
           <Heading fontSize="xl" marginTop="2">
             <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
               {props.title}
@@ -90,8 +93,10 @@ const SmallArticle = (props: SmallArticleProps) => {
           </Heading>
           <Text as="p" fontSize="md" marginTop="2">
             {props.summary[0]}
+            {props.summary[1]}
+            {props.summary[2]}
           </Text>
-          <BlogAuthor name="John Doe" date={props.date} />
+          <BlogAuthor link={props.link} date={props.date} />
         </Box>
       </WrapItem>
     </ChakraProvider>

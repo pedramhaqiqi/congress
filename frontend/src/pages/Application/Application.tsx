@@ -21,33 +21,85 @@ import SmallArticle from "../../components/General/ArticleSmall/ArticleSmall";
 const RequestBodySingle = {
   message: "success",
   data: {
-    title:
-      "Study on the government’s response to the COVID-19 pandemic and its economic consequences",
-    date: "June 22, 2020",
-    session: "43-1",
-    url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/16EV-54998-E",
+    title: "Bill S-222, An Act to amend the Income Tax Act (use of resources)",
+    date: "June 1, 2021",
+    session: "43-2",
+    url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/26EV-55252-E",
+    photo:
+      "https://cdn.discordapp.com/attachments/1030527530639302741/1031061273208688650/blank_tradingcard2.jpeg",
     summary: [
-      "What peopinesses back mmentr being here today. My question is quick an on that?",
-      "Thank you, minister, for being heree engine of the economy with so many people out of work?",
-      "In May, the ning to reorient our , as we  back to. But, quite frankly, ike sure we continue to support people.",
-      "I’ll  are in fact continue their studies in the fall. We did make adjustments through IRCC hat we can do to help.",
+      "     Bill S-222 will provide accountability, but also effective partnership and empowerment.    ",
+      "     The CRA is looking to modernize the legal fiction that requiring programs to be the “own activities” of the funding charity.    ",
+      "     Cooperation Canada is speaking on behalf of 90 organizations working in the humanitarian and development context here in Canada and abroad.    ",
+      "     The CRA will define what is a reasonable resource accountability.    ",
     ],
   },
 };
 
-const RequestBody = {
-  message: "success",
+const FinalBody = {
   data: [
     {
       title:
-        "Study on the government’s response to the COVID-19 pandemic and its economic consequences",
-      date: "June 22, 2020",
-      session: "43-1",
+        "Supplementary Estimates (A) for the fiscal year ending March 31, 2022",
+      date: "June 8, 2021",
+      session: "43-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/29EV-55271-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031038813415407756/blank_tradingcard1.jpg",
+      tags: ["HOUSING", "SENIORS"],
       summary: [
-        "What peopinesses back mmentr being here today. My question is quick an on that?",
-        "Thank you, minister, for being heree engine of the economy with so many people out of work?",
-        "In May, the ning to reorient our , as we  back to. But, quite frankly, ike sure we continue to support people.",
-        "I’ll  are in fact continue their studies in the fall. We did make adjustments through IRCC hat we can do to help.",
+        "Budget 2021 announced a one-time payment of $500 to seniors aged 75 and over to meet their immediate needs. These estimates include $1.69 billion in voted appropriations and $1.67 billion in statutory appropriations to process this payment in August 2021.",
+        "The $1.5 billion announced in the Fall Economic Statement will help address the housing crisis in communities across the country",
+        "CMHC has been responsible for the delivery of the National Housing Strategy, which is a $70-billion-plus investment by the federal government.",
+        "CMHC's study on the causes of house price escalation is still relevant.",
+      ],
+    },
+    {
+      title:
+        "Supplementary Estimates (A) for the fiscal year ending March 31, 2022",
+      date: "June 3, 2021",
+      session: "43-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/27EV-55260-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031052030002868315/blank_tradingcard4.jpg",
+      tags: ["COVID-19", "MONEY"],
+      summary: [
+        "The government has provided more information than usual on COVID-19 spending.",
+        "The Department of Finance is instrumental in Canada’s COVID-19 Economic Response Plan",
+        "The $29.5 billion is for items in the budget",
+        "The $467.6 million is not for vaccine purchase, it is for vaccine development. ",
+      ],
+    },
+    {
+      title:
+        "Bill S-222, An Act to amend the Income Tax Act (use of resources)",
+      date: "June 1, 2021",
+      session: "43-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/26EV-55252-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031041694868721674/blank_tradingcard2.jpg",
+      tags: ["CHARITY", "TAX"],
+      summary: [
+        "Bill S-222 will provide accountability, but also effective partnership and empowerment.",
+        "The CRA is looking to modernize the legal fiction that requiring programs to be the “own activities” of the funding charity.",
+        "Cooperation Canada is speaking on behalf of 90 organizations working in the humanitarian and development context here in Canada and abroad.",
+        "The CRA will define what is a reasonable resource accountability. ",
+      ],
+    },
+    {
+      title:
+        "The subject matter of all of Bill C-30, Budget Implementation Act, 2021, No. 1",
+      date: "May 18, 2021",
+      session: "43-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/21EV-55231-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031053327481450556/blank_tradingcard7.jpg",
+      tags: ["COVID-19", "ECONOMY"],
+      summary: [
+        "The government has not extended COVID support programs to new businesses.",
+        "The IGF will increase AFI lending by $75 million annually",
+        "The federal government cannot keep growing the deficit unconditionally.",
+        "The budget should expand the capital cost allowance system to publicly traded companies.",
       ],
     },
     {
@@ -55,35 +107,175 @@ const RequestBody = {
         "Study on the government’s response to the COVID-19 pandemic and its economic consequences",
       date: "June 22, 2020",
       session: "43-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/17EV-55000-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031054227444875335/blank_tradingcard9.jpg",
+      tags: ["COVID-19", "STUDENTS"],
       summary: [
-        "What peopinesses back mmentr being here today. My question is quick an on that?",
-        "Thank you, minister, for being heree engine of the economy with so many people out of work?",
-        "In May, the ning to reorient our , as we  back to. But, quite frankly, ike sure we continue to support people.",
-        "I’ll  are in fact continue their studies in the fall. We did make adjustments through IRCC hat we can do to help.",
+        "The government is being disingenuous.",
+        "The national unemployment rate is 19%.",
+        "The federal government is not tracking the unemployment rate accurately.",
+        "Canada is working on ways to help international students. ",
+      ],
+    },
+    {
+      title:
+        "Supplementary Estimates (A) for the fiscal year ending March 31, 2021",
+      date: "June 18, 2020",
+      session: "43-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/16EV-54998-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031055378705809438/blank_tradingcard11.jpg",
+      tags: ["COVID-19", "INDIGENOUS"],
+      summary: [
+        "ISED is requesting additional authorities of $628.4 million.",
+        "The $2.3 billion increase to PHAO funding is to support the second phase of Canada’s medical countermeasures response to COVID-19.",
+        "$305M in distinction-based funding for the Indigenous Community Support Fund",
+        "The $468 million is to support the Canadian Human Rights Tribunal rulings. ",
       ],
     },
     {
       title:
         "Study on the government’s response to the COVID-19 pandemic and its economic consequences",
-      date: "June 22, 2020",
+      date: "May 26, 2020",
       session: "43-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/12EV-54982-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031056993059868682/blank_tradingcard13.jpg",
+      tags: ["ECONOMY", "TAX"],
       summary: [
-        "What peopinesses back mmentr being here today. My question is quick an on that?",
-        "Thank you, minister, for being heree engine of the economy with so many people out of work?",
-        "In May, the ning to reorient our , as we  back to. But, quite frankly, ike sure we continue to support people.",
-        "I’ll  are in fact continue their studies in the fall. We did make adjustments through IRCC hat we can do to help.",
+        "The deficit is $252 billion.",
+        "The deficit will rise to $260 billion in the June fiscal update.",
+        "The government is not considering any new taxes",
+        "The government could decide to let programs expire, or increase taxes to reduce the deficit.",
       ],
     },
     {
       title:
-        "Study on the government’s response to the COVID-19 pandemic and its economic consequences",
-      date: "June 22, 2020",
-      session: "43-1",
+        "The subject matter of Bill C-101, An Act to amend the Customs Tariff and the Canadian International Trade Tribunal Act",
+      date: "June 19, 2019",
+      session: "42-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/421/NFFN/99EV-54921-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031058627357835336/blank_tradingcard14.jpg",
+      tags: ["EXPORT", "MARKET"],
       summary: [
-        "What peopinesses back mmentr being here today. My question is quick an on that?",
-        "Thank you, minister, for being heree engine of the economy with so many people out of work?",
-        "In May, the ning to reorient our , as we  back to. But, quite frankly, ike sure we continue to support people.",
-        "I’ll  are in fact continue their studies in the fall. We did make adjustments through IRCC hat we can do to help.",
+        "Bill C-13 would temporarily remove the two-year moratorium on the imposition of safeguards for products that were recently subject to such measures.",
+        "Canada has imposed tariffs on aluminum exports to the US.",
+        "Bill C-15 will be amended to allow the government to extend the two-year moratorium on drug patents for two more years.",
+        "Anti-dumping measures are in place to protect a market from unfair trade.",
+      ],
+    },
+    {
+      title:
+        "The subject matter of all of Bill C-97, Budget Implementation Act, 2019, No. 1 ",
+      date: "June 5, 2019",
+      session: "42-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/421/NFFN/97EV-54861-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031061156594470983/blank_tradingcard15.jpg",
+      tags: ["BUSINESS", "TAX"],
+      summary: [
+        "Trudeau is talking about small business tax cuts.",
+        "We’re going to help Canadians in the future to get the training they need to continually excel in their current jobs or to prepare for new ones.",
+        "The government has reported to Canadians",
+        "Trudeau is focused on how to make sure that prosperity in Canada is shared with the broadest possible cross-section of Canadians.",
+      ],
+    },
+    {
+      title:
+        "The subject matter of all of Bill C-97, Budget Implementation Act, 2019, No. 1",
+      date: "May 30, 2019 ",
+      session: "42-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/421/NFFN/96EV-54841-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031035325126033468/blank_tradingcard.jpg",
+      tags: ["CARBON", "VEHICLE"],
+      summary: [
+        "The Canadian Vehicle Manufacturers Association appreciates the government's commitments in Budget 2019 to invest in the future transportation and to make plug-in electric vehicles more affordable through the iZEV program.",
+        "Electric vehicles are the most promising technology to address carbon pollution in transportation.",
+        "EMC is the only national organization dedicated exclusively to accelerating the electrification of all modes of transportation and represents the complete value chain of this growing industry in Canada.",
+        "The $10,000 loss per electric vehicle is due to the fact that the car is more expensive and the battery is more expensive.",
+      ],
+    },
+    {
+      title:
+        "Subject matter of Bill C-59, Economic Action Plan 2015 Act, No. 1",
+      date: "June 4, 2015",
+      session: "41-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/412/NFFN/33EV-52208-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031062391632449556/blank_tradingcard19.jpg",
+      tags: ["FIRST NATION", "VETERANS"],
+      summary: [
+        "The government has a plan to support veterans",
+        "The Veterans Subcommittee is studying post-traumatic stress and will report to the Finance Committee",
+        "There are 138 First Nations participating in the FMA.",
+        "The chairs of the three key authorities who appeared before the committee were satisfied with the amendments.",
+      ],
+    },
+    {
+      title:
+        "Subject matter of Bill C-59, Economic Action Plan 2015 Act, No. 1 ",
+      date: "May 27, 2015",
+      session: "41-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/412/NFFN/32EV-52160-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031063891335196763/blank_tradingcard20.jpg",
+      tags: ["ECONOMY", "DEFICIT"],
+      summary: [
+        "The $3 billion in the reserve is not excluded from the deficit.",
+        "This bill would not allow the federal government to spend more than it takes in.",
+        "Bill C-59 introduces amendments to the Industrial Design Act, the Patent Act and the Trade-marks Act and to provide for the correction of obvious errors, the extension of time limits to avoid an inadvertent loss of rights in the event of force majeure circumstances",
+        "Bill C-11 adds a new provision to the Patent Act to protect communications between clients and their patent agents in the same way as solicitor-client privilege.",
+      ],
+    },
+    {
+      title:
+        "Supplementary Estimates (A) for the fiscal year ending March 31, 2016 ",
+      date: "May 27, 2015",
+      session: "41-2",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/412/NFFN/33EV-52208-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031064342470332487/blank_tradingcard21.jpg",
+      tags: ["PARKS", "BUDGET"],
+      summary: [
+        "Parks Canada is receiving $2.6 billion in infrastructure investments.",
+        "The reserve is not to be included in the budgetary balance that is referred to within this act.",
+        "Parks Canada spends about $30.2 million a year on advertising.",
+        "The Trans-Canada Highway in Banff has been twinned.",
+      ],
+    },
+    {
+      title:
+        "Bill S-217, An Act to amend the Financial Administration Act (borrowing of money)",
+      date: "June 12, 2013",
+      session: "41-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/411/NFFN/43EV-50238-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031065481270001714/blank_tradingcard22.jpg",
+      tags: ["FINANCE", "COVID-19"],
+      summary: [
+        "The government says the changes help deal with emergencies. Is there no better time for Parliament to be recalled? It is clear to me that an emergency would seem to be an appropriate use of Parliament's time. After all, is it not our job to guide our country",
+        "The government can recall Parliament at any time.",
+        "The public accounts are more detailed.",
+        "The COVID-19 pandemic has revealed the fragility of the global financial system.",
+      ],
+    },
+    {
+      title:
+        "The subject-matter of Bill C-60, An Act to implement certain provisions of the budget",
+      date: "May 29, 2013",
+      session: "41-1",
+      url: "https://sencanada.ca/en/Content/Sen/Committee/411/NFFN/41EV-50187-E",
+      photo:
+        "https://cdn.discordapp.com/attachments/1030527530639302743/1031067415095820368/blank_tradingcard23.jpg",
+      tags: ["TREASURY", "UNION"],
+      summary: [
+        "Treasury Board has not provided a collective bargaining mandate to a specific Crown corporation",
+        "The government has a pattern of mandating what it wants from the unions.",
+        "The amendments to the First Nations Fiscal and Statistical Management Act are meant to allow for funding to be paid out on the requisition of the Minister of Aboriginal Affairs and Northern Development.",
+        "The initial recipients of the federal money tend to be the provinces and territories.",
       ],
     },
   ],
@@ -114,10 +306,10 @@ const BlogTagsDefined: React.FC = () => {
   return (
     <HStack spacing={2} marginTop={2}>
       <Tag size={"md"} variant="solid" bg="purple.400">
-        Coconuts
+        TAXATION
       </Tag>
       <Tag size={"md"} variant="solid" bg="teal.400">
-        Finance
+        FINANCE
       </Tag>
     </HStack>
   );
@@ -129,9 +321,12 @@ interface BlogAuthorProps {
 }
 
 export const BlogAuthor: React.FC<BlogAuthorProps> = (props) => {
+  const openInNewTab = (url: string) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <HStack marginTop="2" spacing="2" display="flex" alignItems="center">
-      <Button>Learn More</Button>
+      <Button onClick={() => openInNewTab(props.name)}>Learn More</Button>
       <Text>—</Text>
       <Text>{props.date.toLocaleDateString()}</Text>
     </HStack>
@@ -169,9 +364,11 @@ const Application = () => {
             </Heading>
             <Text as="p" marginTop="2" fontSize="lg">
               {RequestBodySingle.data.summary[0]}
+              {RequestBodySingle.data.summary[1]}
+              {RequestBodySingle.data.summary[2]}
             </Text>
             <BlogAuthor
-              name="John Doe"
+              name={RequestBodySingle.data.url}
               date={new Date("2021-04-06T19:01:27Z")}
             />
           </Box>
@@ -190,10 +387,9 @@ const Application = () => {
             >
               <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
                 <Image
+                  padding="4"
                   borderRadius="lg"
-                  src={
-                    "https://cdn.discordapp.com/attachments/1030527530639302743/1031034684131516506/blank_tradingcard.jpg"
-                  }
+                  src={RequestBodySingle.data.photo}
                   alt="some good alt text"
                   objectFit="contain"
                   width="100%"
@@ -215,51 +411,17 @@ const Application = () => {
         </Heading>
         <Divider marginTop="5" />
         <Wrap spacing="30px" marginTop="5">
-          <WrapItem width={{ base: "100%", sm: "45%", md: "45%", lg: "30%" }}>
-            <Box w="100%">
-              <Box borderRadius="lg" overflow="hidden">
-                <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
-                  <Image
-                    transform="scale(1.0)"
-                    src={
-                      "https://cdn.discordapp.com/attachments/1030527530639302743/1031034684131516506/blank_tradingcard.jpg"
-                    }
-                    alt="some text"
-                    objectFit="contain"
-                    width="100%"
-                    transition="0.3s ease-in-out"
-                    _hover={{
-                      transform: "scale(1.05)",
-                    }}
-                  />
-                </Link>
-              </Box>
-              <BlogTags tags={["Engineering", "Product"]} marginTop="3" />
-              <Heading fontSize="xl" marginTop="2">
-                <Link textDecoration="none" _hover={{ textDecoration: "none" }}>
-                  Some blog title
-                </Link>
-              </Heading>
-              <Text as="p" fontSize="md" marginTop="2">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </Text>
-              <BlogAuthor
-                name="John Doe"
-                date={new Date("2021-04-06T19:01:27Z")}
-              />
-            </Box>
-          </WrapItem>
-          <SmallArticle
-            title={RequestBody.data[0].title}
-            date={RequestBody.data[0].date}
-            summary={RequestBody.data[0].summary}
-            tag1={"Climate"}
-            tag2={"Finance"}
-            image={"WOMBO Tings"}
-          ></SmallArticle>
+          {FinalBody.data.map((article) => (
+            <SmallArticle
+              title={article.title}
+              link={article.url}
+              tags={article.tags}
+              date={article.date}
+              summary={article.summary}
+              image={article.photo}
+              key={article.session}
+            ></SmallArticle>
+          ))}
         </Wrap>
       </Container>
     </ChakraProvider>

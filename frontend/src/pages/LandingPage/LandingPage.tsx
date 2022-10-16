@@ -37,9 +37,9 @@ export default function CallToActionWithAnnotation() {
               fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
               lineHeight={"110%"}
             >
-              The Future of <br />
+              The House of Commons <br />
               <Text as={"span"} color={"blue.400"}>
-                Law Informatics
+                Via Artificial Intelligence
               </Text>
             </Heading>
             <Text color={"gray.500"}>

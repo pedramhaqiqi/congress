@@ -42,8 +42,7 @@ export default function NavBar() {
       <ChakraProvider>
         <Box bg={useColorModeValue("gray.50", "gray.900")} px={4}>
           <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-            <Box>Co:Law</Box>
-
+            <Box>co:ngress</Box>
             <Flex alignItems={"center"}>
               <Stack direction={"row"} spacing={7}>
                 <Button bg={"gray.50"} onClick={toggleColorMode}>
