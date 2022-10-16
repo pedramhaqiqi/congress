@@ -1,4 +1,4 @@
-import { useCallback } from 'react';
+import { useCallback } from "react";
 import {
   Box,
   Heading,
@@ -10,79 +10,86 @@ import {
   useColorModeValue,
   createIcon,
   ChakraProvider,
-} from '@chakra-ui/react';
-import NavBar from '../../components/NavBar/NavBar';
-import {useNavigate} from 'react-router-dom';
+} from "@chakra-ui/react";
+import NavBar from "../../components/NavBar/NavBar";
+import { useNavigate } from "react-router-dom";
 
 export default function CallToActionWithAnnotation() {
   const navigate = useNavigate();
-  const handleOnClick = useCallback(() => navigate('/application', {replace: true}), [navigate]);
+  const handleOnClick = useCallback(
+    () => navigate("/application", { replace: true }),
+    [navigate]
+  );
 
   return (
     <>
-    <ChakraProvider>
-      <NavBar></NavBar>
-      <Container maxW={'3xl'}>
-        <Stack
-          as={Box}
-          textAlign={'center'}
-          spacing={{ base: 8, md: 14 }}
-          py={{ base: 20, md: 36 }}>
-          <Heading
-            fontWeight={600}
-            fontSize={{ base: '2xl', sm: '4xl', md: '6xl' }}
-            lineHeight={'110%'}>
-            The Future of <br />
-            <Text as={'span'} color={'blue.400'}>
-              Law Informatics
-            </Text>
-          </Heading>
-          <Text color={'gray.500'}>
-            Bite-size snippets of the most recent legislative matters, to keep
-            you up to date with the information that matters. Get a better 
-            understanding of the legal system in Canada and more.
-          </Text>
+      <ChakraProvider>
+        <NavBar></NavBar>
+        <Container maxW={"3xl"}>
           <Stack
-            direction={'column'}
-            spacing={3}
-            align={'center'}
-            onClick={handleOnClick}
-            alignSelf={'center'}
-            position={'relative'}>
-            <Button
-              colorScheme={'blue'}
-              bg={'blue.400'}
-              rounded={'full'}
-              px={6}
-              _hover={{
-                bg: 'blue.500',
-              }}>
-              Get Started
-            </Button>
-            <Button variant={'link'} colorScheme={'blue'} size={'sm'}>
-              Learn more
-            </Button>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue('gray.800', 'gray.300')}
-                w={71}
-                position={'absolute'}
-                right={-71}
-                top={'15px'}
-              />
-            </Box>
+            as={Box}
+            textAlign={"center"}
+            spacing={{ base: 8, md: 14 }}
+            py={{ base: 20, md: 36 }}
+          >
+            <Heading
+              fontWeight={600}
+              fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+              lineHeight={"110%"}
+            >
+              The Future of <br />
+              <Text as={"span"} color={"blue.400"}>
+                Law Informatics
+              </Text>
+            </Heading>
+            <Text color={"gray.500"}>
+              Bite-size snippets of the most recent legislative matters, to keep
+              you up to date with the information that matters. Get a better
+              understanding of the legal system in Canada and more.
+            </Text>
+            <Stack
+              direction={"column"}
+              spacing={3}
+              align={"center"}
+              onClick={handleOnClick}
+              alignSelf={"center"}
+              position={"relative"}
+            >
+              <Button
+                colorScheme={"blue"}
+                bg={"blue.400"}
+                rounded={"full"}
+                px={6}
+                _hover={{
+                  bg: "blue.500",
+                }}
+              >
+                Get Started
+              </Button>
+              <Button variant={"link"} colorScheme={"blue"} size={"sm"}>
+                Learn more
+              </Button>
+              <Box>
+                <Icon
+                  as={Arrow}
+                  color={useColorModeValue("gray.800", "gray.300")}
+                  w={71}
+                  position={"absolute"}
+                  right={-71}
+                  top={"15px"}
+                />
+              </Box>
+            </Stack>
           </Stack>
-        </Stack>
-      </Container>
+        </Container>
       </ChakraProvider>
     </>
   );
 }
 
 const Arrow = createIcon({
-  displayName: 'Arrow',
-  viewBox: '0 0 72 24',
+  displayName: "Arrow",
+  viewBox: "0 0 72 24",
   path: (
     <path
       fillRule="evenodd"
