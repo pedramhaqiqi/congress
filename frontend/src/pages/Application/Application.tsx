@@ -26,7 +26,7 @@ const RequestBodySingle = {
     session: "43-2",
     url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/26EV-55252-E",
     photo:
-      "https://cdn.discordapp.com/attachments/1030527530639302741/1031061273208688650/blank_tradingcard2.jpeg",
+      "https://cdn.discordapp.com/attachments/993702831850786886/1032528642426798170/blank_tradingcard2.jpg",
     summary: [
       "     Bill S-222 will provide accountability, but also effective partnership and empowerment.    ",
       "     The CRA is looking to modernize the legal fiction that requiring programs to be the “own activities” of the funding charity.    ",
@@ -45,7 +45,7 @@ const FinalBody = {
       session: "43-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/29EV-55271-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031038813415407756/blank_tradingcard1.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032534338128060447/blank_tradingcard1.jpg",
       tags: ["HOUSING", "SENIORS"],
       summary: [
         "Budget 2021 announced a one-time payment of $500 to seniors aged 75 and over to meet their immediate needs. These estimates include $1.69 billion in voted appropriations and $1.67 billion in statutory appropriations to process this payment in August 2021.",
@@ -61,7 +61,7 @@ const FinalBody = {
       session: "43-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/27EV-55260-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031052030002868315/blank_tradingcard4.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528642791723008/blank_tradingcard4.jpg",
       tags: ["COVID-19", "MONEY"],
       summary: [
         "The government has provided more information than usual on COVID-19 spending.",
@@ -77,7 +77,7 @@ const FinalBody = {
       session: "43-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/26EV-55252-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031041694868721674/blank_tradingcard2.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528656133791805/blank_tradingcard22.jpg",
       tags: ["CHARITY", "TAX"],
       summary: [
         "Bill S-222 will provide accountability, but also effective partnership and empowerment.",
@@ -93,7 +93,7 @@ const FinalBody = {
       session: "43-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/432/NFFN/21EV-55231-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031053327481450556/blank_tradingcard7.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528643055947886/blank_tradingcard7.jpg",
       tags: ["COVID-19", "ECONOMY"],
       summary: [
         "The government has not extended COVID support programs to new businesses.",
@@ -109,7 +109,7 @@ const FinalBody = {
       session: "43-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/17EV-55000-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031054227444875335/blank_tradingcard9.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528643349557279/blank_tradingcard9.jpg",
       tags: ["COVID-19", "STUDENTS"],
       summary: [
         "The government is being disingenuous.",
@@ -125,7 +125,7 @@ const FinalBody = {
       session: "43-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/16EV-54998-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031055378705809438/blank_tradingcard11.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528643722842122/blank_tradingcard11.jpg",
       tags: ["COVID-19", "INDIGENOUS"],
       summary: [
         "ISED is requesting additional authorities of $628.4 million.",
@@ -141,7 +141,7 @@ const FinalBody = {
       session: "43-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/431/NFFN/12EV-54982-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031056993059868682/blank_tradingcard13.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528644045819924/blank_tradingcard13.jpg",
       tags: ["ECONOMY", "TAX"],
       summary: [
         "The deficit is $252 billion.",
@@ -157,7 +157,7 @@ const FinalBody = {
       session: "42-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/421/NFFN/99EV-54921-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031058627357835336/blank_tradingcard14.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528644343603261/blank_tradingcard14.jpg",
       tags: ["EXPORT", "MARKET"],
       summary: [
         "Bill C-13 would temporarily remove the two-year moratorium on the imposition of safeguards for products that were recently subject to such measures.",
@@ -173,7 +173,7 @@ const FinalBody = {
       session: "42-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/421/NFFN/97EV-54861-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031061156594470983/blank_tradingcard15.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528641533419570/blank_tradingcard15.jpg",
       tags: ["BUSINESS", "TAX"],
       summary: [
         "Trudeau is talking about small business tax cuts.",
@@ -189,7 +189,7 @@ const FinalBody = {
       session: "42-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/421/NFFN/96EV-54841-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031035325126033468/blank_tradingcard.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528656658075719/blank_tradingcard.jpg",
       tags: ["CARBON", "VEHICLE"],
       summary: [
         "The Canadian Vehicle Manufacturers Association appreciates the government's commitments in Budget 2019 to invest in the future transportation and to make plug-in electric vehicles more affordable through the iZEV program.",
@@ -205,7 +205,7 @@ const FinalBody = {
       session: "41-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/412/NFFN/33EV-52208-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031062391632449556/blank_tradingcard19.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528641793474631/blank_tradingcard19.jpg",
       tags: ["FIRST NATION", "VETERANS"],
       summary: [
         "The government has a plan to support veterans",
@@ -221,7 +221,7 @@ const FinalBody = {
       session: "41-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/412/NFFN/32EV-52160-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031063891335196763/blank_tradingcard20.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528655672426526/blank_tradingcard20.jpg",
       tags: ["ECONOMY", "DEFICIT"],
       summary: [
         "The $3 billion in the reserve is not excluded from the deficit.",
@@ -237,7 +237,7 @@ const FinalBody = {
       session: "41-2",
       url: "https://sencanada.ca/en/Content/Sen/Committee/412/NFFN/33EV-52208-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031064342470332487/blank_tradingcard21.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528655890513960/blank_tradingcard21.jpg",
       tags: ["PARKS", "BUDGET"],
       summary: [
         "Parks Canada is receiving $2.6 billion in infrastructure investments.",
@@ -253,7 +253,7 @@ const FinalBody = {
       session: "41-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/411/NFFN/43EV-50238-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031065481270001714/blank_tradingcard22.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528656133791805/blank_tradingcard22.jpg",
       tags: ["FINANCE", "COVID-19"],
       summary: [
         "The government says the changes help deal with emergencies. Is there no better time for Parliament to be recalled? It is clear to me that an emergency would seem to be an appropriate use of Parliament's time. After all, is it not our job to guide our country",
@@ -269,7 +269,7 @@ const FinalBody = {
       session: "41-1",
       url: "https://sencanada.ca/en/Content/Sen/Committee/411/NFFN/41EV-50187-E",
       photo:
-        "https://cdn.discordapp.com/attachments/1030527530639302743/1031067415095820368/blank_tradingcard23.jpg",
+        "https://cdn.discordapp.com/attachments/993702831850786886/1032528656414822461/blank_tradingcard23.jpg",
       tags: ["TREASURY", "UNION"],
       summary: [
         "Treasury Board has not provided a collective bargaining mandate to a specific Crown corporation",
