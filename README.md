@@ -37,7 +37,7 @@ For scalability, it also stores summaries and AI-images for each proceeding in a
 ## Contributors ✨
 
 - Pedram Meskoub [Linkedin](https://www.linkedin.com/in/pedrammeskoub/)
-- Efkan Serhat Gokepte [Linkedin](https://www.linkedin.com/in/serhatgoktepe/)
+- Efkan Serhat Goktepe [Linkedin](https://www.linkedin.com/in/serhatgoktepe/)
 - Nikhil lakhwani [Linkedin](https://www.linkedin.com/in/nlakhwani/)
 - Daniyal Iqbal [Linkedin](https://www.linkedin.com/in/daniyal-iqbal-726a69219/)
 
