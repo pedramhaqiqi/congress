@@ -10,7 +10,7 @@
 
 ## Hack the valley 7 🏆
 
-We are proud to say that CO:NGRESS is <b>University of Toronto's</b> hack the valley 7 winner ! [DevPost](https://devpost.com/software/co-ngress)
+We are proud to say that CO:NGRESS is <b>University of Toronto's</b> 2022 hack the valley 7 winner ! [DevPost](https://devpost.com/software/co-ngress)
 
 ## Inspiration 
 
