@@ -40,3 +40,11 @@ For scalability, it also stores summaries and AI-images for each proceeding in a
 - Efkan Serhat Gokepte [Linkedin](https://www.linkedin.com/in/serhatgoktepe/)
 - Nikhil lakhwani [Linkedin](https://www.linkedin.com/in/nlakhwani/)
 - Daniyal Iqbal [Linkedin](https://www.linkedin.com/in/daniyal-iqbal-726a69219/)
+
+## Project Screenshot 📸
+
+<img align = "center" src="public/assets/demo_screenshot.png">
+
+## 🍒 on the 🎂
+
+<img align = "center" src="public/assets/darkmode_ss.png">
