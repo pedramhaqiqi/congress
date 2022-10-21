@@ -10,7 +10,7 @@
 
 ## Hack the valley 7 🏆
 
-We are proud to say that CO:NGRESS is <b>University of Toronto's</b> hack the valley 7 winner ! [DevPost](https://devpost.com/software/co-ngress)
+We are proud to say that CO:NGRESS is <b>University of Toronto's</b> 2022 hack the valley 7 winner ! [DevPost](https://devpost.com/software/co-ngress)
 
 ## Inspiration 
 
@@ -23,6 +23,12 @@ Our app scrapes proceedings from the House of Commons of Canada and runs it thro
 Once summarized, it roughly interprets the topic of the hearing and passes it as a prompt to Wombo API, fetching an AI-generated image, as a small entertainment factor for the user.
 
 For scalability, it also stores summaries and AI-images for each proceeding in a database, so that if N users request to see the summary of a proceeding, it does not have to scrape and summarize N times, but only one time. After that, it will fetch the same result from the database. 
+
+## Built with 🛠
+
+- [React + TypeScript](https://reactjs.org/) (Client Application)
+- [Django REST](https://www.django-rest-framework.org/) (Server Application/Framework)
+- [Sqlite3](https://www.sqlite.org/index.html) (Database)
 
 ## Architecture Diagram ✏️
 
