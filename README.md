@@ -8,15 +8,15 @@
 
 ---
 
-## Hack the valley 7 🏆
+## Hack The Valley 7 🏆
 
-We are proud to say that CO:NGRESS is <b>University of Toronto's</b> 2022 hack the valley 7 winner ! [DevPost](https://devpost.com/software/co-ngress)
+We are proud to say that CO:NGRESS is <b>University of Toronto's</b> 2022 Hack the Valley 7 First Prize Winner! [DevPost](https://devpost.com/software/co-ngress)
 
 ## Inspiration 
 
 We were inspired by the fact that a TL:DR is included at the start/end of most news articles, but there was no TL:DR for parliament hearings. News outlets are a great way of keeping track of what's going on in Canada, but news mostly consists of mainstream headlines and is not at all inclusive of all decisions that are being made in our country. We saw the opportunity, and went for it! A TL:DR for parliament hearings!
 
-## What it does 
+## What it does? 
 
 Our app scrapes proceedings from the House of Commons of Canada and runs it through the Article Summarization feature of Cohere API.
 
